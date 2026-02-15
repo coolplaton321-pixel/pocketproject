@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pocket Agency | Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="us-page">
+    <header class="site-nav">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.png" alt="Pocket Agency" />
+      </a>
+      <nav class="sub-nav">
+        <a class="active" href="us.html#spirit">Spirit</a>
+        <a href="us.html#roster">Roster</a>
+      </nav>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="us.html">Us</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <button class="btn nav-cta magnetic">Start a Project</button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <a class="logo" href="index.html">
+            <img src="assets/logo.png" alt="Pocket Agency" />
+          </a>
+          <button class="menu-close" type="button" aria-label="Close menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="mobile-menu-links">
+          <a href="index.html">Home</a>
+          <a href="work.html">Work</a>
+          <a href="services.html">Services</a>
+          <a class="active" href="us.html#roster">About Us</a>
+          <a href="#" data-contact>Contact Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="site">
+      <section class="section us-top-images">
+        <img src="assets/about us/about.png" alt="About us graphic" />
+        <img src="assets/about us/adv.png" alt="Advantages graphic" />
+      </section>
+      <div class="us-popup" aria-hidden="false" data-draggable>
+        <button class="us-popup-close" type="button" aria-label="Close popup">
+          &times;
+        </button>
+        <h2>Work in Pocket</h2>
+        <p class="us-popup-subtitle">We are always looking for talents</p>
+        <p class="us-popup-text">interested? drop your cv here</p>
+        <span class="us-popup-pill">platon.tsuz@gmail.com</span>
+      </div>
+      <section class="section us-hero-video">
+        <div class="us-video-wrap us-video us-video-anastasia">
+          <div class="us-video-card">
+            <video
+              class="hover-play us-video-media"
+              src="assets/about us/anastasia.mp4"
+              preload="metadata"
+              muted
+              playsinline
+            ></video>
+            <div class="us-video-info">
+              <h3>Anastasia</h3>
+              <p>Content Creator</p>
+            </div>
+          </div>
+          <span class="us-video-pill">Anastasia - Content Creator</span>
+        </div>
+        <div class="us-video-wrap us-video us-video-right us-video-dasha">
+          <div class="us-video-card">
+            <video
+              class="hover-play us-video-media"
+              src="assets/about us/dasha.mp4"
+              preload="metadata"
+              muted
+              playsinline
+            ></video>
+            <div class="us-video-info">
+              <h3>Daria</h3>
+              <p>Marketing Specialist</p>
+            </div>
+          </div>
+          <span class="us-video-pill">Daria - Marketing Specialist</span>
+        </div>
+      </section>
+      <!--
+      <section class="section us-about">
+        <div class="about-card">
+          <h1>About us:</h1>
+          <ul>
+            <li>
+              We are Irish marketing agency
+            </li>
+            <li>Run by bold 20 year olds</li>
+            <li>
+              11 projects from 4 different
+              <br />
+              countries
+            </li>
+            <li>Operate in Dublin &amp; Carlow</li>
+          </ul>
+        </div>
+      </section>
+      <section class="section us-advantages">
+        <div class="advantages-card">
+          <h2>Our Advantages:</h2>
+          <div class="advantages-pills">
+            <span class="pill" style="--float: 14px; --delay: 0s;">creative</span>
+            <span class="pill" style="--float: -12px; --delay: 0.2s;">quick</span>
+            <span class="pill" style="--float: 16px; --delay: 0.4s;">flexible</span>
+            <span class="pill" style="--float: -10px; --delay: 0.6s;">affortable</span>
+          </div>
+          <ul>
+            <li>
+              much cheaper than having
+              <br />
+              part-time marketer at your team
+            </li>
+            <li>
+              much much cheaper than
+              <br />
+              other agencies
+            </li>
+          </ul>
+        </div>
+      </section>
+      -->
+      <section class="section us-manager">
+        <div class="us-profile-card us-profile-card--manager us-profile-card--shadow us-profile-card--platon">
+          <img src="assets/about us/manager.png" alt="Platon Tsuz portrait" />
+          <div class="us-profile-info">
+            <h3>Platon Tsuz</h3>
+            <p>Project Manager</p>
+          </div>
+        </div>
+      </section>
+      <section class="section us-manager">
+        <div class="us-profile-card us-profile-card--manager us-profile-card--serhii">
+          <img src="assets/about us/serega.png" alt="Serhii portrait" />
+          <div class="us-profile-info">
+            <h3>Serhii</h3>
+            <p>Marketing Specialist</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="contact-modal" aria-hidden="true">
+      <div class="contact-modal-overlay"></div>
+      <div class="contact-modal-card" role="dialog" aria-modal="true">
+        <h3>Let's Create Together:</h3>
+        <p>pocketagency@outlook.com</p>
+        <button class="contact-modal-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

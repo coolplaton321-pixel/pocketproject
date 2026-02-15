@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pocket Agency</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="intro-locked home-page">
+    <div id="intro" class="intro">
+      <div class="intro-inner">
+        <div class="intro-logo">
+          <img src="assets/animationlogo.png" alt="Pocket Agency" />
+        </div>
+        <div class="intro-line"></div>
+        <p class="intro-hint">PRESS OR TAP TO ENTER</p>
+      </div>
+    </div>
+
+    <header class="site-nav">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.png" alt="Pocket Agency" />
+      </a>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="us.html">Us</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <button class="btn nav-cta magnetic">Start a Project</button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <a class="logo" href="index.html">
+            <img src="assets/logo.png" alt="Pocket Agency" />
+          </a>
+          <button class="menu-close" type="button" aria-label="Close menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="mobile-menu-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="work.html">Work</a>
+          <a href="services.html">Services</a>
+          <a href="us.html#roster">About Us</a>
+          <a href="#" data-contact>Contact Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="site">
+      <section class="section home-video-hero">
+        <video
+          class="home-video-hero-media desktop-video"
+          src="assets/home_video.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+        <div class="home-mobile-video-wrap">
+          <video
+            class="home-video-hero-media mobile-video"
+            src="assets/cover_mobile_final.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+        </div>
+      </section>
+      <section class="section home-video-banner">
+        <p class="home-banner-text">
+          MARKETING AGENCY
+          <br />
+          <span>in your pocket</span>
+        </p>
+        <button class="home-banner-cta" type="button">LET'S WORK</button>
+      </section>
+
+      <section class="section hero">
+        <div class="hero-content">
+          <a
+            class="cube-cta mobile-bar"
+            href="https://www.google.com/search?q=cute+baby+capybaras&sca_esv=4ba3af865432350d&udm=2&biw=1920&bih=953&aic=0&sxsrf=ANbL-n4GoTs6P9LglCdzY27sw5e7tGxYGQ%3A1768614707008&ei=M-tqaYUcxLSFsg-0x6zBBw&ved=0ahUKEwjFgeyau5GSAxVEWkEAHbQjK3gQ4dUDCBI&uact=5&oq=cute+baby+capybaras&gs_lp=Egtnd3Mtd2l6LWltZyITY3V0ZSBiYWJ5IGNhcHliYXJhczIHEAAYgAQYEzIIEAAYExgFGB4yChAAGBMYCBgKGB5IwwtQzARY-AZwAXgAkAEAmAE_oAG1AaoBATO4AQPIAQD4AQGYAgSgAssBwgIFEAAYgATCAgQQABgewgIHECMYJxjJApgDAIgGAZIHATSgB9UPsgcBM7gHyAHCBwUwLjEuM8gHEYAIAA&sclient=gws-wiz-img"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Press me!
+          </a>
+          <h1 class="hero-title hero-title-alt">
+              <span class="hero-headline">
+                We <span class="hero-cursive">boost</span><br />
+                social medias<br />
+                and build<br />
+                brands.
+              </span>
+            <span class="hero-subline hero-accent hero-cursive hero-subline-stack"></span>
+            <span class="hero-subline hero-subline-gap">
+              Dublin and Carlow <span class="hero-shake">only!</span>
+            </span>
+          </h1>
+        </div>
+        <div class="floating-shapes"></div>
+      </section>
+
+      <section class="section home-showcase">
+        <div class="home-showcase-inner">
+          <div class="home-showcase-text"></div>
+          <div class="home-media">
+            <video
+              class="home-video home-video-desktop"
+              autoplay
+              muted
+              loop
+              playsinline
+              src="assets/home_vid.MP4"
+            ></video>
+            <div class="home-logo-block"></div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <div class="contact-modal" aria-hidden="true">
+      <div class="contact-modal-overlay"></div>
+      <div class="contact-modal-card" role="dialog" aria-modal="true">
+        <h3>Let's Create Together:</h3>
+        <p>pocketagency@outlook.com</p>
+        <button class="contact-modal-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

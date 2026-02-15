@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pocket Agency | Services</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="services-page">
+    <header class="site-nav">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.png" alt="Pocket Agency" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="us.html">Us</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <button class="btn nav-cta magnetic">Start a Project</button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <a class="logo" href="index.html">
+            <img src="assets/logo.png" alt="Pocket Agency" />
+          </a>
+          <button class="menu-close" type="button" aria-label="Close menu">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="mobile-menu-links">
+          <a href="index.html">Home</a>
+          <a href="work.html">Work</a>
+          <a class="active" href="services.html">Services</a>
+          <a href="us.html">About Us</a>
+          <a href="#" data-contact>Contact Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="site">
+      <section class="section services-showcase">
+        <div class="smm-grid">
+          <div class="smm-card">
+            <img
+              class="smm-large"
+              src="assets/services/smm.png"
+              alt="SMM preview"
+            />
+          </div>
+          <div class="smm-card freelance-card">
+            <img
+              class="smm-large"
+              src="assets/services/project.png"
+              alt="Project preview"
+            />
+          </div>
+          <a
+            class="smm-card sb-banner-card"
+            href="sb.html"
+            aria-label="Sweet Baking Mama case"
+            style="transform: translate(450px, -800px); --drag-base-x: 450; --drag-base-y: -800;"
+          >
+            <video
+              class="smm-large"
+              autoplay
+              muted
+              loop
+              playsinline
+              src="assets/sweetbaking/banner.mp4"
+            ></video>
+          </a>
+          <a
+            class="smm-card g4-banner-card"
+            href="g4.html"
+            aria-label="G4 Chess case"
+            style="transform: translate(-450px, -810px); --drag-base-x: -450; --drag-base-y: -810;"
+          >
+            <img
+              class="smm-large"
+              src="assets/g4gif.gif"
+              alt="G4 Chess preview"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section class="section services-projects">
+        <div class="services-footer-note">
+          <p>hello, how are you?</p>
+          <p>you can click on images above,</p>
+          <p>just in case..</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="contact-modal" aria-hidden="true">
+      <div class="contact-modal-overlay"></div>
+      <div class="contact-modal-card" role="dialog" aria-modal="true">
+        <h3>Let's Create Together:</h3>
+        <p>pocketagency@outlook.com</p>
+        <button class="contact-modal-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <div class="project-modal" aria-hidden="true">
+      <div class="project-modal-overlay"></div>
+      <div class="project-modal-card" role="dialog" aria-modal="true">
+        <button class="project-modal-image-link" type="button">
+          <img
+            src="assets/freelanceproject2.png"
+            alt="Freelance project preview"
+          />
+        </button>
+        <h3>Let's Create Together:</h3>
+        <p>pocketagency@outlook.com</p>
+        <button class="project-modal-close" type="button">Close</button>
+      </div>
+    </div>
+
+    <div class="image-viewer" aria-hidden="true">
+      <div class="image-viewer-overlay"></div>
+      <div class="image-viewer-card" role="dialog" aria-modal="true">
+        <button class="image-viewer-back" type="button">Go back</button>
+        <div class="image-viewer-controls">
+          <button class="image-viewer-zoom-in" type="button">+</button>
+          <button class="image-viewer-zoom-out" type="button">-</button>
+          <button class="image-viewer-zoom-reset" type="button">Reset</button>
+        </div>
+        <img
+          src="assets/freelanceproject2.png"
+          alt="Freelance project preview full"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
